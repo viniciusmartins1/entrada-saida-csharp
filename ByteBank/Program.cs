@@ -13,11 +13,13 @@ namespace ByteBank
     {
         static void Main(string[] args)
         {
+            //EscritaBinaria();
+            LeituraBinaria();
             
            //CriarArquivo();
 
            //CriarArquivoComWriter();
-           TesteEcrita();
+           //TesteEcrita();
            Console.WriteLine("Aplicação finalizada");
         }
        

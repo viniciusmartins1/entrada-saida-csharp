@@ -16,7 +16,8 @@ namespace ByteBank
             
            //CriarArquivo();
 
-           CriarArquivoComWriter();
+           //CriarArquivoComWriter();
+           TesteEcrita();
            Console.WriteLine("Aplicação finalizada");
         }
        

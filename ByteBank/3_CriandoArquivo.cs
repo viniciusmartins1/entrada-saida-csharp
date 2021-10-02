@@ -38,7 +38,28 @@ namespace ByteBank
                 escritor.Write("342, 34234, 434.0, Vinicius Martins");
             }
             
+        }
 
+        static void TesteEcrita()
+        {
+            var caminhoArquivo = "teste.txt";
+
+            using (var fluxoDeArquivo = new FileStream(caminhoArquivo, FileMode.Create))
+            using (var escritor = new StreamWriter(fluxoDeArquivo))
+            {
+                for (int i = 0; i < 10; i++)       
+                {
+                    escritor.WriteLine($"Linha {i}");
+
+                    escritor.Flush();
+
+                    Console.WriteLine($"Linha {i} foi escrita no arquivo. Tecle enter p  adicionar mais linha");
+                    Console.ReadLine();
+
+                }
+                 
+            }
+           
         }
     }
 

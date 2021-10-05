@@ -16,4 +16,6 @@ Repositório para prática e exercícios do último curso da formação de progr
 >> - `Stream Writer;`
 >> - `Flush();`
 >> - `Binary Reader e Writer;`
+>> - `Class File;`
+>> - `Console.OpenStandardInput();`
 

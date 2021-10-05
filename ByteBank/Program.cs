@@ -14,7 +14,9 @@ namespace ByteBank
         static void Main(string[] args)
         {
             //EscritaBinaria();
-            LeituraBinaria();
+            //LeituraBinaria();
+
+            UsarStreamDeEntrada();
             
            //CriarArquivo();
 
